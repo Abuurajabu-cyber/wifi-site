@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f8f9fb;
+  color: #333;
+  text-align: center;
+}
+
+/* Header (Hero) */
+.header {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: white;
+  padding: 80px 20px;
+}
+.header h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+}
+.header p {
+  font-size: 1.3rem;
+  margin: 10px 0 20px;
+}
+.header button {
+  padding: 12px 28px;
+  font-size: 1rem;
+  background: #fff;
+  color: #1e3a8a;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.header button:hover {
+  background: #edf2ff;
+}
+
+/* About */
+.about {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+.about h2 {
+  font-size: 2rem;
+  color: #1e3a8a;
+}
+.about p {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Features */
+.features {
+  background: #fff;
+  padding: 40px 20px;
+}
+.features h2 {
+  font-size: 2rem;
+  color: #1e3a8a;
+  margin-bottom: 18px;
+}
+.features-list {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.feature-item {
+  background: #eef2ff;
+  padding: 18px 22px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  width: 180px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Pricing */
+.pricing {
+  padding: 40px 20px;
+}
+.pricing h2 {
+  font-size: 2rem;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.pricing-card {
+  background: #fff;
+  padding: 28px 22px;
+  border-radius: 12px;
+  width: 240px;
+  box-shadow: 0 8px 26px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.pricing-card:hover {
+  transform: translateY(-6px);
+}
+.featured {
+  border: 2px solid #1e3a8a;
+}
+.pricing-card h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.price {
+  font-size: 1.6rem;
+  color: #1e3a8a;
+  margin: 8px 0;
+}
+.pricing-card p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Contact */
+.contact {
+  background: #f1f5f9;
+  padding: 40px 20px;
+}
+.contact h2 {
+  font-size: 2rem;
+  color: #1e3a8a;
+}
+.contact button {
+  padding: 10px 24px;
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 14px;
+}
+.contact button:hover {
+  background: #1550b5;
+}
+#welcomeMessage {
+  margin-top: 12px;
+  font-size: 1rem;
+  color: #1e3a8a;
+}
+
+/* Footer */
+.footer {
+  padding: 14px 0;
+  background: #1e3a8a;
+  color: white;
+  font-size: 0.9rem;
+}
